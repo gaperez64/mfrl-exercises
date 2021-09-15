@@ -15,6 +15,7 @@ directory.
 To install everything needed for TensorFlow Agents, you might first need to
 install [Bazel](https://bazel.build/). You can then run:
 ```
+pip install tensorflow
 pip install tf-agents
 ```
 
