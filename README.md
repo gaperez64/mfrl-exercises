@@ -25,4 +25,18 @@ use by running:
 pip install -r requirements.txt
 ```
 
+## Plug your code in
+There are two places where you need to change the `solve.py` script that
+is provided.
+1. The policy that is currently provided as an example is one that plays 
+   uniformly at random. Please do some computations (based on the theory
+   covered during the course) so that you replace this by a more interesting
+   policy.
+2. To make sure your policy is interesting, we ask that you compute the
+   expected value per state if one would follow the policy you construct.
+   Additionally, you have to compute the same value (vector) for a random
+   policy and (as a sanity check) make sure that yours does better than the
+   random policy.
+The places in the script where these pieces of code have to be inserted are
+clearly marked by comments.
 
