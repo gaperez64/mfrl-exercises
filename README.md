@@ -17,6 +17,7 @@ install [Bazel](https://bazel.build/). You can then run:
 ```
 pip install tensorflow
 pip install tf-agents
+pip install 'imageio==2.4.0'
 ```
 
 

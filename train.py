@@ -1,3 +1,3 @@
 from tf_agents.environments import suite_gym
 
-env = suite_gym.load("FrozenLake8x8-v0")
+env = suite_gym.load("FrozenLake8x8-v1")
