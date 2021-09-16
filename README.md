@@ -1,9 +1,9 @@
 This repository contains scripts and templates for programming exercises
 assigned during the Mathematical Foundations of RL course at UAntwerp.
 
-We will be making use of the [https://www.tensorflow.org/agents](TensorFlow
-Agents library) and its interface with
-[https://gym.openai.com/envs/#classic_control](OpenAI's gym environments).
+We will be making use of the [TensorFlow
+Agents library](https://gym.openai.com/envs/#classic_control) and its interface with
+[OpenAI's gym environments](https://gym.openai.com/envs/#classic_control).
 
 # Installation
 We strongly recommend that you carry out the following steps using a virtual
