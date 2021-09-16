@@ -1,8 +1,7 @@
 This repository contains scripts and templates for programming exercises
 assigned during the Mathematical Foundations of RL course at UAntwerp.
 
-We will be making use of the [TensorFlow
-Agents library](https://gym.openai.com/envs/#classic_control) and its interface with
+We will be making use of 
 [OpenAI's gym environments](https://gym.openai.com/envs/#classic_control).
 
 # Installation
@@ -16,12 +15,14 @@ activate your virtual environment by sourcing the activate script in its bin
 directory.
 
 ## Dependencies
-To install everything needed for TensorFlow Agents, you might first need to
-install [Bazel](https://bazel.build/). You can then run:
+To install everything needed, you can now run:
 ```
-pip install tensorflow
-pip install tf-agents
-pip install 'imageio==2.4.0'
+pip install gym
+```
+Alternatively, there is a requirements.txt file in this repository you can
+use by running:
+```
+pip install -r requirements.txt
 ```
 
 
