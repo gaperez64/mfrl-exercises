@@ -27,7 +27,7 @@ for i in range(env.nS):
 Insert your clever policy computation here! make sure to replace the
 policy dictionary below by the results of your computation
 """
-T = 10  # Given horizon, DO NOT CHANGE
+T = 10  # Given horizon
 policy = {t: {i: env.action_space.sample()
               for i in range(env.nS)}
           for t in range(T)}
