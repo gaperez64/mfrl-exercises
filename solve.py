@@ -34,8 +34,9 @@ policy = {t: {i: env.action_space.sample()
 
 # Policy evaluation: here's where YOU also code
 """
-Insert here your code to evaluate the expected reward per state at timestep
-0 if one follows your policy. Do the same for a random policy (i.e. the
+Insert here your code to evaluate
+the total expected rewards over the planning horizon T
+if one follows your policy. Do the same for a random policy (i.e. the
 sample policy given above). As a sanity check, your policy should get an
 expected reward of at least the one obtained by the random policy!
 """
