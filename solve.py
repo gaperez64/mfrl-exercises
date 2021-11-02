@@ -2,7 +2,7 @@ import gym
 
 # We will load a DiscreteEnv and retrieve the probability and reward
 # information
-env = gym.make("FrozenLake8x8-v1")
+env = gym.make("FrozenLake8x8-v1", desc=None, map_name=None)
 """
 DiscreteEnv has an attribute P which holds everything er want as a
 dictionary of lists:
@@ -27,7 +27,7 @@ for i in range(env.nS):
 Insert your clever policy computation here! make sure to replace the
 policy dictionary below by the results of your computation
 """
-T = 10  # Given horizon
+T = 2  # Given horizon
 policy = {t: {i: env.action_space.sample()
               for i in range(env.nS)}
           for t in range(T)}
@@ -42,7 +42,7 @@ expected reward of at least the one obtained by the random policy!
 """
 
 # Simulation: you can try your policy here, just remove the false conditional
-if False:
+if True:
     state = env.reset()
     for t in range(T):
         env.render()
