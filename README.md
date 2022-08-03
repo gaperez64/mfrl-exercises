@@ -1,5 +1,7 @@
 This repository contains scripts and templates for programming exercises
-assigned during the Mathematical Foundations of RL course at UAntwerp.
+assigned during the Mathematical Foundations of RL course at UAntwerp. If
+you want a no-installation solution, use 
+[the Google Colab notebook instead.](https://colab.research.google.com/drive/1ziFGtkgXmQdtB4yAirEcFPpnwOc88fHm?usp=sharing)
 
 We will be making use of 
 [OpenAI's gym environments](https://gym.openai.com/envs/#classic_control).
